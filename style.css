@@ -1603,6 +1603,7 @@ footer {
 }
 
 /* ==========================================================================
+<<<<<<< HEAD
    Floating WhatsApp Button
    ========================================================================== */
 .whatsapp-float {
@@ -1683,6 +1684,17 @@ footer {
    .hero-stats {
       justify-content: center;
       gap: 3rem;
+=======
+   Media Queries (Responsive Design)
+   ========================================================================== */
+@media(max-width: 900px) {
+   section {
+      padding: 60px 5%;
+   }
+
+   #hero {
+      padding: 100px 5% 60px;
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
    }
 
    .bc1 {
@@ -1690,13 +1702,21 @@ footer {
    }
 
    .bc2,
+<<<<<<< HEAD
    .bc3,
+=======
+   .bc3 {
+      grid-column: span 6;
+   }
+
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
    .bc4,
    .bc5,
    .bc6 {
       grid-column: span 6;
    }
 
+<<<<<<< HEAD
    .bc1 .card-inner {
       min-height: 400px;
    }
@@ -1755,6 +1775,45 @@ footer {
       text-align: left;
       width: 100%;
       max-width: 320px;
+=======
+   .tcard {
+      width: 290px;
+   }
+
+   .services-grid {
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .process-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+   }
+
+   .process-grid::before {
+      display: none;
+   }
+
+   .contact-grid,
+   .about-grid,
+   .services-intro {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+   }
+
+   .about-grid {
+      text-align: center;
+   }
+
+   .about-img-wrap {
+      max-width: 300px;
+      margin: 0 auto;
+   }
+
+   .contact-left,
+   .services-intro p {
+      text-align: center;
+      align-self: center;
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
    }
 
    /* Mobile Menu Styles */
@@ -1769,6 +1828,7 @@ footer {
       width: 100%;
       height: 100vh;
       background: rgba(10, 10, 15, 0.98);
+<<<<<<< HEAD
       backdrop-filter: blur(20px);
       flex-direction: column;
       justify-content: center;
@@ -1792,6 +1852,27 @@ footer {
    .nav-cta {
       padding: 14px 36px;
       font-size: 18px !important;
+=======
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      transform: translateY(-100%);
+      transition: transform 0.4s ease-in-out;
+   }
+
+   .nav-links.active {
+      transform: translateY(0);
+   }
+
+   .nav-links a {
+      font-size: 20px;
+   }
+
+   .nav-cta {
+      padding: 12px 30px;
+      font-size: 16px !important;
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
    }
 
    .nav-socials {
@@ -1803,8 +1884,13 @@ footer {
    }
 
    .nav-socials svg {
+<<<<<<< HEAD
       width: 26px;
       height: 26px;
+=======
+      width: 24px;
+      height: 24px;
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
    }
 
    .menu-toggle.active .bar:nth-child(2) {
@@ -1820,6 +1906,7 @@ footer {
    }
 }
 
+<<<<<<< HEAD
 /* Mobile Devices (max-width: 600px) */
 @media(max-width: 600px) {
    section {
@@ -1845,6 +1932,9 @@ footer {
    .hero-stat .num {
       font-size: 1.8rem;
    }
+=======
+@media(max-width: 600px) {
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
 
    .bc1,
    .bc2,
@@ -1855,25 +1945,49 @@ footer {
       grid-column: span 12;
    }
 
+<<<<<<< HEAD
    .bc1 .card-inner {
       min-height: 320px;
+=======
+   .tcard {
+      width: 260px;
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
    }
 
    .services-grid {
       grid-template-columns: 1fr;
    }
 
+<<<<<<< HEAD
    .process-grid {
       grid-template-columns: 1fr;
       gap: 3rem;
    }
 
+=======
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
    .form-row {
       grid-template-columns: 1fr;
    }
 
+<<<<<<< HEAD
    .contact-form {
       padding: 1.5rem;
+=======
+   footer {
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .hero-stats {
+      gap: 1rem;
+      justify-content: space-between;
+   }
+
+   .hero-stat {
+      flex: 1 1 40%;
+      text-align: center;
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
    }
 
    .cta-btns {
@@ -1887,6 +2001,7 @@ footer {
       justify-content: center;
    }
 
+<<<<<<< HEAD
    footer {
       flex-direction: column;
       text-align: center;
@@ -1929,5 +2044,9 @@ footer {
 
    .tcard {
       width: 250px;
+=======
+   .filter-tabs {
+      justify-content: center;
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
    }
 }

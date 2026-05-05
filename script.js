@@ -90,6 +90,7 @@ document.querySelectorAll('.ftab').forEach(btn => {
 });
 
 /* ==========================================================================
+<<<<<<< HEAD
    3D Tilt Effect on Portfolio Cards (Desktop Only)
    ========================================================================== */
 if (window.innerWidth > 1024) {
@@ -107,6 +108,22 @@ if (window.innerWidth > 1024) {
     });
 }
 
+=======
+   3D Tilt Effect on Portfolio Cards
+   ========================================================================== */
+cards.forEach(card => {
+    card.addEventListener('mousemove', e => {
+        const r = card.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - 0.5;
+        const y = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform = `perspective(800px) rotateY(${x * 12}deg) rotateX(${-y * 12}deg) translateZ(8px)`;
+    });
+
+    card.addEventListener('mouseleave', () => {
+        card.style.transform = 'perspective(800px) rotateY(0) rotateX(0) translateZ(0)';
+    });
+});
+>>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
 
 /* ==========================================================================
    Testimonials - Infinite Marquee Generator
