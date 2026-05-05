@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Rakesh — Web Designer & Developer</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= Navbar ================= -->
+    <nav id="navbar">
+        <div class="logo">rakeshwebdesign</div>
+        <!-- Hamburger Icon -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="nav-links">
+            <a href="#Home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Work</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#contact" class="nav-cta">Hire Me</a>
+            <div class="nav-socials">
+                <a href="https://www.linkedin.com/in/rakeshsingh130/" target="_blank" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/rakeshwebdesign/" target="_blank" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= Hero Section ================= -->
+    <!-- 
+        ====== HERO BACKGROUND IMAGE (IMAGE ADD HERE) ======
+        If you want to add a hero background image instead of gradients:
+        Change .hero-grid in style.css or add an img tag here inside .hero-bg
+    -->
+    <section id="Home">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="orb orb1"></div>
+            <div class="orb orb2"></div>
+            <div class="orb orb3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge"><span class="badge-dot"></span>Available for new projects</div>
+            <h1 class="hero-title">
+                <span class="line"><span class="word" style="animation-delay:0.1s">I Design Websites</span></span>
+                <span class="line"><span class="word" style="animation-delay:0.25s">That <span
+                            class="grad">Convert</span></span></span>
+                <span class="line"><span class="word" style="animation-delay:0.4s">&amp; <span
+                            class="grad">Impress.</span></span></span>
+            </h1>
+            <p class="hero-sub">Bringing your ideas to life with modern, impactful websites — blending creativity, clean
+                code, and smart design to leave a lasting impression.</p>
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Let's Talk</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="num" data-count="3">0</div>
+                    <div class="lbl">Years Experience</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="num" data-count="48">0</div>
+                    <div class="lbl">Projects Done</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="num" data-count="30">0</div>
+                    <div class="lbl">Happy Clients</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="num" data-count="100">0</div>
+                    <div class="lbl">Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= Marquee ================= -->
+    <div class="marquee-wrap">
+        <div class="marquee-track" id="mtrack"></div>
+    </div>
+
+    <!-- ================= About Section ================= -->
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-img-wrap reveal-left">
+                <!-- ====== ABOUT ME IMAGE (IMAGE ADD HERE) ====== -->
+                <!-- 
+                     To add your photo, you can add an inline style:
+                     <div class="about-img" style="background-image: url('assets/images/my-photo.jpg'); background-size: cover; background-position: center;"></div>
+                     OR put an <img> tag inside the div:
+                     <div class="about-img"><img src="assets/images/my-photo.jpg" alt="Rakesh" style="width:100%; height:100%; object-fit:cover;"></div>
+                -->
+                <div class="about-img">
+                    <img src="images/profile.jpeg" alt="Rakesh" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="floating-badge fb1">
+                    <div class="fb-num">3+</div>
+                    <div class="fb-txt">Years Exp.</div>
+                </div>
+                <div class="floating-badge fb2">
+                    <div class="fb-num">48+</div>
+                    <div class="fb-txt">Projects Done</div>
+                </div>
+            </div>
+            <div class="about-text reveal-right">
+                <p class="section-label">About Me</p>
+                <h2 class="section-title">I'm Rakesh, your <span class="grad">digital growth</span> partner</h2>
+                <p>I'm a passionate <strong>Web Designer & Developer</strong> based in <strong>Gujarat, India</strong>
+                    with 3+ years of experience crafting websites that don't just look stunning — they deliver real
+                    business results.</p>
+                <p>From brand-new builds to redesigns and e-commerce stores, I handle it all. I've built a strong niche
+                    in <strong>dental clinic websites</strong> — understanding patient journeys, trust signals, and
+                    booking requirements that give clients a real edge.</p>
+                <div class="skills-list">
+                    <span class="skill-tag">WordPress & Elementor</span><span class="skill-tag">HTML / CSS /
+                        JS</span><span class="skill-tag">E-Commerce</span><!--<span class="skill-tag">UI / UX
+                        Design</span>--><span class="skill-tag">SEO Optimization</span><span class="skill-tag">Speed
+                        Optimization</span><!--<span class="skill-tag">Figma</span>--><span class="skill-tag">Landing
+                        Pages</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= Services Section ================= -->
+    <section id="services">
+        <div class="services-intro reveal">
+            <div>
+                <p class="section-label">What I Offer</p>
+                <h2 class="section-title">Services that drive <span class="grad">results</span></h2>
+            </div>
+            <p style="color:var(--muted);font-size:15px;max-width:380px;align-self:end">Every service is designed with
+                one goal — grow your business and turn visitors into customers.</p>
+        </div>
+        <div class="services-grid reveal">
+            <!-- Service 1 -->
+            <div class="service-card">
+                <div class="svc-num">01</div>
+                <div class="svc-icon"><svg viewBox="0 0 24 24">
+                        <rect x="2" y="3" width="20" height="14" rx="2" />
+                        <path d="M8 21h8M12 17v4M7 8h10M7 11h4" />
+                    </svg></div>
+                <h3>Responsive Website Design</h3>
+                <p>Modern, fully responsive websites that work flawlessly on mobiles, tablets, and desktops —
+                    mobile-first always.</p>
+            </div>
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="svc-num">02</div>
+                <div class="svc-icon"><svg viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                        <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
+                    </svg></div>
+                <h3>WordPress Development</h3>
+                <p>Fast, secure, and SEO-friendly WordPress websites. Easy for you to manage without constant developer
+                    dependency.</p>
+            </div>
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="svc-num">03</div>
+                <div class="svc-icon"><svg viewBox="0 0 24 24">
+                        <circle cx="9" cy="21" r="1" />
+                        <circle cx="20" cy="21" r="1" />
+                        <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
+                    </svg></div>
+                <h3>E-Commerce Stores</h3>
+                <p>Complete online stores with secure checkout, payment gateway integration, and full inventory
+                    management.</p>
+            </div>
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="svc-num">04</div>
+                <div class="svc-icon"><svg viewBox="0 0 24 24">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                    </svg></div>
+                <h3>Landing Page Design</h3>
+                <p>High-converting landing pages for product launches, lead generation, and campaigns using Elementor +
+                    custom code.</p>
+            </div>
+            <!-- Service 5 -->
+            <div class="service-card">
+                <div class="svc-num">05</div>
+                <div class="svc-icon"><svg viewBox="0 0 24 24">
+                        <polyline points="23 4 23 10 17 10" />
+                        <path d="M20.49 15a9 9 0 11-2.12-9.36L23 10" />
+                    </svg></div>
+                <h3>Website Redesign & Revamp</h3>
+                <p>Transform your outdated website into a fresh, modern, user-friendly version with improved speed.</p>
+            </div>
+            <!-- Service 6 -->
+            <div class="service-card">
+                <div class="svc-num">06</div>
+                <div class="svc-icon"><svg viewBox="0 0 24 24">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                    </svg></div>
+                <h3>Performance Optimization</h3>
+                <p>Speed up your slow website for better SEO rankings, lower bounce rates, and superior user experience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= Process Section ================= -->
+    <section id="process">
+        <div style="text-align:center;margin-bottom:1rem" class="reveal">
+            <p class="section-label" style="justify-content:center">How I Work</p>
+            <h2 class="section-title">My proven 4-step <span class="grad">process</span></h2>
+        </div>
+        <div class="process-grid">
+            <div class="process-step reveal" style="transition-delay:0.1s">
+                <div class="process-num">
+                    <img src="images/Discovery & Planning.png" alt="Process 1">
+                </div>
+                <h3>Discovery & Planning</h3>
+                <p>Deeply understand your vision, goals, and business objectives before writing a single line of
+                    code.
+                </p>
+            </div>
+            <div class="process-step reveal" style="transition-delay:0.2s">
+                <div class="process-num">
+                    <img src="images/Design & Development.png" alt="Process 2">
+                </div>
+                <h3>Design & Development</h3>
+                <p>Wireframes, mockups, prototypes — then pixel-perfect development where creativity meets
+                    precision.
+                </p>
+            </div>
+            <div class="process-step reveal" style="transition-delay:0.3s">
+                <div class="process-num">
+                    <img src="images/Content Integration.png" alt="Process 3">
+                </div>
+                <h3>Content Integration</h3>
+                <p>Every element purposefully placed — imagery, copy, and CTAs aligned to your brand and goals.</p>
+            </div>
+            <div class="process-step reveal" style="transition-delay:0.4s">
+                <div class="process-num">
+                    <img src="images/Testing & Launch.png" alt="Process 4">
+                </div>
+                <h3>Testing & Launch</h3>
+                <p>Rigorous cross-device and browser testing before launch — plus post-launch support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= Portfolio Section ================= -->
+    <section id="portfolio">
+        <div class="port-header reveal">
+            <div>
+                <p class="section-label">My Work</p>
+                <h2 class="section-title">Selected projects</h2>
+            </div>
+            <a href="#contact" class="btn-secondary" style="font-size:13px;padding:10px 22px">Start a Project →</a>
+        </div>
+        <div class="filter-tabs reveal" id="filterTabs">
+            <button class="ftab active" data-filter="all">All Work</button>
+            <button class="ftab" data-filter="dental">Dental / Medical</button>
+            <!--<button class="ftab" data-filter="ecom">E-Commerce</button>
+            <button class="ftab" data-filter="wp">WordPress</button>
+            <button class="ftab" data-filter="landing">Landing Pages</button>-->
+        </div>
+
+        <div class="bento-grid" id="bentoGrid">
+            <!-- ====== PORTFOLIO PROJECT 1 IMAGE (IMAGE ADD HERE) ====== -->
+            <!-- To add a project image: In style.css change .bg-p1, OR add inline style here: -->
+            <!-- <div class="card-bg" style="background-image: url('assets/images/project1.jpg'); background-size: cover; background-position: center;"></div> -->
+            <div class="bento-card bc1 shown" data-cat="dental">
+                <div class="card-inner">
+                    <div class="card-bg bg-p1"> <img src="images/santuary website.png" alt="" width="100%" height="100%"
+                            object-fit="cover">
+                    </div>
+                    <div class="card-deco"></div>
+                    <div class="card-num">01</div>
+                    <div class="card-label">
+                        <div class="card-cat">Dental Clinic · Live Website</div>
+                        <h3>Pristine Sanctuary</h3>
+                    </div>
+                    <div class="card-overlay">
+                        <p class="overlay-desc">Live dental practice website with online booking system, trust-building
+                            patient reviews, and mobile-first design. Increased patient inquiries by 60%.</p><a
+                            class="overlay-link" href="https://rakeshsingh1304.github.io/pristine-santury-website/"
+                            target="_blank">View Live
+                            Site
+                            ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====== PORTFOLIO PROJECT 2 IMAGE (IMAGE ADD HERE) ====== -->
+            <div class="bento-card bc2 shown" data-cat="wp">
+                <div class="card-inner">
+                    <div class="card-bg bg-p2"> <img src="images/Clinic master.png" alt="" width="100%" height="100%"
+                            object-fit="cover">
+                    </div>
+                    <div class="card-deco"></div>
+                    <div class="card-num">02</div>
+                    <div class="card-label">
+                        <div class="card-cat">WordPress Template</div>
+                        <h3>ClinicMaster</h3>
+                    </div>
+                    <div class="card-overlay">
+                        <p class="overlay-desc">Comprehensive dental clinic WordPress template with appointment booking
+                            and service showcase.</p><a class="overlay-link"
+                            href="https://clinicmaster.dexignzone.com/xhtml/dentist/index.html" target="_blank">View
+                            Demo ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====== PORTFOLIO PROJECT 3 IMAGE (IMAGE ADD HERE) ====== -->
+            <div class="bento-card bc3 shown" data-cat="dental">
+                <div class="card-inner">
+                    <div class="card-bg bg-p3"> <img src="images/pollo hospital.png" alt="" width="100%" height="100%"
+                            object-fit="cover"></div>
+                    <div class="card-deco"></div>
+                    <div class="card-num">03</div>
+                    <div class="card-label">
+                        <div class="card-cat">Dental · HTML Template</div>
+                        <h3>Pollo Hospital</h3>
+                    </div>
+                    <div class="card-overlay">
+                        <p class="overlay-desc">Modern dental clinic design with smooth UI, appointment booking, and
+                            patient-focused layout.</p><a class="overlay-link"
+                            href="https://rakeshsingh1304.github.io/pollo-hospital/" target="_blank">View Demo ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====== PORTFOLIO PROJECT 4 IMAGE (IMAGE ADD HERE) ====== -->
+            <div class="bento-card bc4 shown" data-cat="dental">
+                <div class="card-inner">
+                    <div class="card-bg bg-p4"> <img src="images/dotus.png" alt="" width="100%" height="100%"
+                            object-fit="cover"></div>
+                    <div class="card-deco"></div>
+                    <div class="card-num">04</div>
+                    <div class="card-label">
+                        <div class="card-cat">Medical / Dental</div>
+                        <h3>Dotus Template</h3>
+                    </div>
+                    <div class="card-overlay">
+                        <p class="overlay-desc">Medical & dental practice template with clean layout and service-focused
+                            design.</p><a class="overlay-link" href="https://wpocean.com/html/tf/dotus-live/"
+                            target="_blank">View Demo ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====== PORTFOLIO PROJECT 5 IMAGE (IMAGE ADD HERE) ====== -->
+            <div class="bento-card bc5 shown" data-cat="ecom">
+                <div class="card-inner">
+                    <div class="card-bg bg-p5"><img src="images/dentcare.png" alt="" width="100%" height="100%"
+                            object-fit="cover"></div>
+                    <div class="card-deco"></div>
+                    <div class="card-num">05</div>
+                    <div class="card-label">
+                        <div class="card-cat">E-Commerce · WooCommerce</div>
+                        <h3>Clinic Master</h3>
+                    </div>
+                    <div class="card-overlay">
+                        <p class="overlay-desc">Complete WooCommerce store with product catalog, secure checkout, and
+                            payment gateway.</p><a class="overlay-link"
+                            href="https://clinicmaster.dexignzone.com/xhtml/medical/index.html" target="blank">View
+                            Demo ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====== PORTFOLIO PROJECT 6 IMAGE (IMAGE ADD HERE) ====== -->
+            <div class="bento-card bc6 shown" data-cat="landing">
+                <div class="card-inner">
+                    <div class="card-bg bg-p6"><img src="images/melbourn road.png" alt="" width="100%" height="100%"
+                            object-fit="cover"></div>
+                    <div class="card-deco"></div>
+                    <div class="card-num">06</div>
+                    <div class="card-label">
+                        <div class="card-cat">Landing Page</div>
+                        <h3>Melbourne Road Dental</h3>
+                    </div>
+                    <div class="card-overlay">
+                        <p class="overlay-desc">High-converting product launch landing page with 34% conversion rate and
+                            lead capture.</p><a class="overlay-link"
+                            href="https://rakeshsingh1304.github.io/Malbournroad-clinic-website/" target="blank">Get
+                            Similar →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= Testimonials Section ================= -->
+    <section id="testimonials">
+        <div class="test-top reveal">
+            <p class="section-label">Testimonials</p>
+            <h2 class="section-title">Clients don't just hire me once.<br><span class="grad">They come back.</span></h2>
+            <p style="color:var(--muted);font-size:15px;max-width:480px;margin:0 auto">Real words from real clients.
+                Building trust is the foundation of every project I take on.</p>
+        </div>
+        <!-- Client reviews are dynamically generated by script.js -->
+        <div id="row1wrap">
+            <div class="trow trow1" id="trow1"></div>
+        </div>
+        <div id="row2wrap" style="margin-top:0">
+            <div class="trow trow2" id="trow2"></div>
+        </div>
+    </section>
+
+    <!-- ================= CTA Section ================= -->
+    <section id="cta">
+        <p class="section-label reveal" style="justify-content:center;margin-bottom:1rem">Ready to Start?</p>
+        <h2 class="reveal">Your next client is waiting.<br>Let's build their first impression.</h2>
+        <p class="reveal">Don't let competitors have the better website. Let's create something that wins business for
+            you — 24/7.</p>
+        <div class="cta-btns reveal">
+            <a href="#contact" class="btn-primary">Start a Project →</a>
+            <a href="mailto:info@rakeshwebdesign.in" class="btn-secondary">info@rakeshwebdesign.in</a>
+        </div>
+    </section>
+
+    <!-- ================= Contact Section ================= -->
+    <section id="contact">
+        <div class="contact-grid">
+            <div class="contact-left reveal-left">
+                <p class="section-label">Contact</p>
+                <h2 class="section-title">Let's build something <span class="grad">amazing</span></h2>
+                <p>Have a project in mind? I personally handle every project and respond within 24 hours.</p>
+                <div class="contact-info">
+                    <div class="c-info-item">
+                        <div class="c-icon"><svg viewBox="0 0 24 24">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg></div>
+                        <div>
+                            <div class="c-label">Email</div>
+                            <a href="mailto:info@rakeshwebdesign.in">info@rakeshwebdesign.in</a>
+                        </div>
+                    </div>
+                    <div class="c-info-item">
+                        <div class="c-icon"><svg viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10" />
+                                <path
+                                    d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+                            </svg></div>
+                        <div>
+                            <div class="c-label">Website</div>
+                            <a href="https://rakeshwebdesign.in/">rakeshwebdesign.in</a>
+                        </div>
+                    </div>
+                    <div class="c-info-item">
+                        <div class="c-icon"><svg viewBox="0 0 24 24">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg></div>
+                        <div>
+                            <div class="c-label">Location</div>
+                            <div class="c-val">Umbergaon East, Solsumba – 396165, Gujarat, India</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form reveal-right" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group"><label>Your Name</label><input type="text" placeholder="e.g. Priya Sharma"
+                            name="name" required /></div>
+                    <div class="form-group"><label>Email</label><input type="email" placeholder="your@email.com"
+                            name="email" required />
+                    </div>
+                </div>
+                <div class="form-group"><label>Service Needed</label><select name="service" required>
+                        <option value="" disabled selected>Select a service...</option>
+                        <option>Responsive Website Design</option>
+                        <option>WordPress Development</option>
+                        <option>E-Commerce Store</option>
+                        <option>Landing Page Design</option>
+                        <option>Website Redesign</option>
+                        <option>Performance Optimization</option>
+                        <option>Dental Clinic Website</option>
+                    </select></div>
+                <div class="form-group"><label>Tell me about your project</label><textarea
+                        placeholder="Describe your project, goals, timeline..." name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn-form" id="submitBtn">Send Message — Let's Build! 🚀</button>
+                <div id="formMessage"
+                    style="display: none; margin-top: 15px; font-size: 14px; padding: 10px; border-radius: 8px;"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ================= Footer ================= -->
+    <footer>
+        <div class="foot-logo">rakeshwebdesign</div>
+        <div class="foot-links"><a href="#about">About</a><a href="#services">Services</a><a
+                href="#portfolio">Work</a><a href="#contact">Contact</a></div>
+        <div class="foot-socials">
+            <a href="https://www.linkedin.com/in/rakeshsingh130/" target="_blank" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/rakeshwebdesign/" target="_blank" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+        </div>
+        <div class="foot-copy">© 2026 Rakesh Web Design · Gujarat, India</div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917046046036" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.67-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+        </svg>
+    </a>
+
+    <!-- Link to external JS file -->
+    <script src="script.js"></script>
+</body>
+
+
+</html>
