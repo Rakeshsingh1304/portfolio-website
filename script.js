@@ -90,7 +90,6 @@ document.querySelectorAll('.ftab').forEach(btn => {
 });
 
 /* ==========================================================================
-<<<<<<< HEAD
    3D Tilt Effect on Portfolio Cards (Desktop Only)
    ========================================================================== */
 if (window.innerWidth > 1024) {
@@ -107,23 +106,6 @@ if (window.innerWidth > 1024) {
         });
     });
 }
-
-=======
-   3D Tilt Effect on Portfolio Cards
-   ========================================================================== */
-cards.forEach(card => {
-    card.addEventListener('mousemove', e => {
-        const r = card.getBoundingClientRect();
-        const x = (e.clientX - r.left) / r.width - 0.5;
-        const y = (e.clientY - r.top) / r.height - 0.5;
-        card.style.transform = `perspective(800px) rotateY(${x * 12}deg) rotateX(${-y * 12}deg) translateZ(8px)`;
-    });
-
-    card.addEventListener('mouseleave', () => {
-        card.style.transform = 'perspective(800px) rotateY(0) rotateX(0) translateZ(0)';
-    });
-});
->>>>>>> 26f1672a732097fbb319f58a6ad7b04ae5bf2836
 
 /* ==========================================================================
    Testimonials - Infinite Marquee Generator
@@ -181,7 +163,7 @@ const submitBtn = document.getElementById('submitBtn');
 const formMessage = document.getElementById('formMessage');
 
 // IMPORTANT: Replace this URL with your deployed Google Apps Script Web App URL
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyMsoQbSxc-UeyLw3O82ZP_5IkkOMMq7O7PzaBmqh42gHLO3U9PVqs0zmklArfxQiE4Cg/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzEPQX7DNiZtAI_wwKvaM8B1vZu39qJeem6bsskr79yHp59oKRy-UCjvOlOIs8LlZHM/exec';
 
 if (contactForm) {
     contactForm.addEventListener('submit', async (e) => {
